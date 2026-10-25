@@ -1,0 +1,8 @@
+feature,PC1_Loading,PC2_Loading
+avg_temperature,-0.368,-0.165
+annual_rainfall,-0.184,0.594
+seasonal_temperature_variation,0.45,-0.17
+daily_sunshine_hours,0.298,-0.526
+avg_wind_speed,-0.413,-0.375
+wind_speed_p95,-0.379,-0.412
+year_to_year_temp_variability,0.475,-0.061

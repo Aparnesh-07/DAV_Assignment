@@ -1,0 +1,13 @@
+metric,value,status,details
+Total Records,182600,Passed,"Exactly 182,600 daily rows across 50 cities"
+Unique Cities,50,Passed,Top 50 most populous Indian urban centers
+Date Span Start,2010-01-01,Passed,2010-01-01
+Date Span End,2019-12-31,Passed,2019-12-31
+Temporal Span (Days),3652,Passed,"3,652 consecutive days (including leap years 2012, 2016)"
+City Completeness,100.0%,Passed,"All 50 cities have exactly 3,652 daily entries without gaps"
+Duplicate Records,0,Passed,"Zero duplicate (city, date) entries"
+Missing Values (Raw),1,Resolved,1 missing et0 value in Guwahati (2016-06-05) imputed with monthly mean
+Missing Values (Cleaned),0,Passed,"Complete matrix, 0 null cells remaining"
+Physical Plausibility (Temp),0,Passed,Min temp <= Mean temp <= Max temp for 100% of rows
+Physical Plausibility (Rain),0,Passed,Zero negative precipitation values
+Generated At,2026-10-25 12:05:41,Verified,Exported by KNIME Analytics Workflow A
